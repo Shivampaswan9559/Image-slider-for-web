@@ -104,7 +104,7 @@
 }
 #box5
 {
-    background-image: url(/photo5.jpg);
+    background-image: url(./photo5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
