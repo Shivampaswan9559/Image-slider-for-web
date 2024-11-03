@@ -96,7 +96,7 @@ function box1()
 {
    let image = document.querySelector(".image");
    image.id = "1";
-   image.style.backgroundImage = "URL('/photo1.jpg')";
+   image.style.backgroundImage = "URL('./photo1.jpg')";
    image.style.backgroundSize = "contain";
    let box1 = document.querySelector("#box1");
    let box2 = document.querySelector("#box2");
@@ -133,7 +133,7 @@ function box2()
   
    let image = document.querySelector(".image");
    image.id = "2";
-   image.style.backgroundImage = "URL('/photo2.jpg')";
+   image.style.backgroundImage = "URL('./photo2.jpg')";
    image.style.backgroundSize = "contain";
    
    let box1 = document.querySelector("#box1");
@@ -172,7 +172,7 @@ function box3()
   
    let image = document.querySelector(".image");
    image.id = "3";
-   image.style.backgroundImage = "URL('/photo3.jpg')";
+   image.style.backgroundImage = "URL('./photo3.jpg')";
    image.style.backgroundSize = "contain";
 
    let box1 = document.querySelector("#box1");
@@ -211,7 +211,7 @@ function box4()
   
    let image = document.querySelector(".image");
    image.id = "4";
-   image.style.backgroundImage = "URL('/photo4.jpg')";
+   image.style.backgroundImage = "URL('./photo4.jpg')";
    image.style.backgroundSize = "contain";
    
 
@@ -251,7 +251,7 @@ function box5()
   
    let image = document.querySelector(".image");
    image.id = "5";
-   image.style.backgroundImage = "URL('/photo5.jpg')";
+   image.style.backgroundImage = "URL('./photo5.jpg')";
    image.style.backgroundSize = "contain";
    
 
@@ -291,7 +291,7 @@ function box6()
   
    let image = document.querySelector(".image");
    image.id = "6";
-   image.style.backgroundImage = "URL('/photo6.jpg')";
+   image.style.backgroundImage = "URL('./photo6.jpg')";
    image.style.backgroundSize = "contain";
    
 
@@ -331,7 +331,7 @@ function box7()
   
    let image = document.querySelector(".image");
    image.id = "7";
-   image.style.backgroundImage = "URL('/photo7.jpg')";
+   image.style.backgroundImage = "URL('./photo7.jpg')";
    image.style.backgroundSize = "contain";
    
    let box1 = document.querySelector("#box1");
@@ -374,7 +374,7 @@ function box8()
    // image.style.backgroundSize = "contain";
    let image = document.querySelector(".image");
    image.id = "8";
-   image.style.backgroundImage = "URL('/photo8.jpg')";
+   image.style.backgroundImage = "URL('./photo8.jpg')";
    image.style.backgroundSize = "contain";
    
 
@@ -420,7 +420,7 @@ function box9()
    
    let image = document.querySelector(".image");
    image.id = "9";
-   image.style.backgroundImage = "URL('/photo9.jpg')";
+   image.style.backgroundImage = "URL('./photo9.jpg')";
    image.style.backgroundSize = "contain";
    
 
