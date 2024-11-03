@@ -1,0 +1,265 @@
+*
+{
+    margin: 0;
+   box-sizing: border-box;
+  
+}body
+{
+    background-color: #92C9B1;
+}
+.prev
+{   
+    
+    margin: 0 auto;
+    height: 35rem;
+    width: 80%;
+    border: 1px solid #571F4E;
+    background-color: #005C69;
+}
+.main_image
+{   
+    height: 90%;
+    width: 100%;
+    border: 1px solid black;
+    /* height: 100%; */
+}
+.image 
+{
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 31.1rem;
+    width: 68rem;
+    background-image: url(/photo1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 34.5rem; */
+
+}
+.swipe_botton
+{
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+  margin: 15rem 0;
+   position: relative;
+}
+.image_button
+{
+    height: 3rem;
+    width: 2rem;
+    font-size: 1.8rem;
+}
+.other
+{
+    height: 10%;
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    background-color: antiquewhite;
+    /* visibility: hidden; */
+    
+}
+.box
+{
+    height: 100%;
+    width: 10%;
+    border: 1px solid yellow;
+    margin: 0 5px 0 5px;
+    background-color: rgb(207, 207, 254);
+    opacity: 0.7;
+    border-radius: 20%;
+}
+#box1
+{
+    background-image: url(/photo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid rgb(0, 91, 84);
+    border-radius: 20%;
+    
+    opacity: 1;
+}
+#box2
+{
+    background-image: url(/photo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box3
+{
+    background-image: url(/photo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box4
+{
+    background-image: url(/photo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#box5
+{
+    background-image: url(/photo5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box6
+{
+    background-image: url(/photo6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#box7
+{
+    background-image: url(/photo7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box8
+{
+    background-image: url(/photo8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box9
+{
+    background-image: url(/photo9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#see_more
+{
+    
+    text-decoration: none;
+    color: black;
+}
+#see :hover
+{
+    color: blue;
+    
+}
+#see
+{
+    opacity: 1;
+}
+#see a 
+{
+    font-size: 1.1em;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+.botton
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+}
+.footer_botton{
+    height: 2rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* visibility: hidden; */
+    /* color: red; */
+    
+}
+.swipe_mode
+{
+  margin-right: 10px;
+}
+.swipe_mode button , .swipe_mode2 button
+{
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.swipe_mode2
+{
+    margin-left: 10px;
+}
+
+.image
+{
+     /* animation: shivam 20s  2s  forwards;  */
+
+}
+.prev
+{
+    
+}
+@keyframes my_anim
+{
+    10%{
+        background-image: url(/photo1.jpg);
+    }
+    20%{
+        background-image: url(/photo2.jpg);
+    }
+    30%
+    {
+        background-image: url(/photo3.jpg);;
+    }
+    40%
+    {
+        background-image: url(/photo4.jpg);;
+    }
+    50%
+    {
+        background-image: url(/photo5.jpg);;
+    }
+    60%
+    {
+        background-image: url(/photo6.jpg);;
+    }
+    70%
+    {
+        background-image: url(/photo7.jpg);;
+    }
+    80%
+    {
+        background-image: url(/photo8.jpg);;
+    }
+    90%
+    {
+        background-image: url(/photo9.jpg);;
+    }
+    100%
+    {
+        background-image: url(/photo1.jpg);;
+    }
+}
+button:active
+{
+  background-color:red;
+  
+}
+#botm1, #botm2, #botm3, #botm4, #swipe, #swipe2
+{
+    background-color: #8BB174;
+    
+}

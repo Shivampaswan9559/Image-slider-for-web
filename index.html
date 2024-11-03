@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image_slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="prev">
+          <div class="main_image">
+            <div class="image" id="1"></div>
+            <div class="swipe_botton">
+                <div class="previeus"><button class="image_button" onclick="prev()" id="botm1"><</button></div>
+                <div class="next"><button class="image_button" onclick="next()" id="botm2">></button></div>
+            </div>
+          </div>
+          <div class="other">
+           <div class="box" id="box1" onclick="box1()"></div>
+           <div class="box"  id="box2" onclick="box2()"></div>
+           <div class="box" id="box3" onclick="box3()"></div>
+           <div class="box" id="box4" onclick="box4()"></div>
+           <div class="box" id="box5" onclick="box5()"></div>
+           <div class="box" id="box6" onclick="box6()"></div>
+           <div class="box" id="box7" onclick="box7()"></div>
+           <div class="box" id="box8" onclick="box8()"></div>
+           <div class="box" id="box9" onclick="box9()"></div>
+          <div class="box" id="see" onclick="see_more()"><a href="" id="see_more">See more...</a></div>  
+
+          </div>   
+        </div>
+    
+    </main>
+    <footer>
+    <div class="swipe_mode"><Button id="swipe" onclick="swipe()">Auto Swipe Mode</Button></div>
+     
+    <div class="botton">
+        <button class="footer_botton" onclick="prev()" id="botm3"><</button>
+        <button class="footer_botton" onclick="next()" id="botm4">></button>
+     </div>
+     <div class="swipe_mode2"><button id="swipe2" onclick="swipe2()">Stop Swipe Mode</button></div>
+
+    </footer>
+    <script src="Image_slider.js"></script>
+</body>
+</html>
