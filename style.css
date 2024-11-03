@@ -83,21 +83,21 @@
 }
 #box2
 {
-    background-image: url(/photo2.jpg);
+    background-image: url(./photo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #box3
 {
-    background-image: url(/photo3.jpg);
+    background-image: url(./photo3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #box4
 {
-    background-image: url(/photo4.jpg);
+    background-image: url(./photo4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -111,28 +111,28 @@
 }
 #box6
 {
-    background-image: url(/photo6.jpg);
+    background-image: url(./photo6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
 }
 #box7
 {
-    background-image: url(/photo7.jpg);
+    background-image: url(./photo7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #box8
 {
-    background-image: url(/photo8.jpg);
+    background-image: url(./photo8.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #box9
 {
-    background-image: url(/photo9.jpg);
+    background-image: url(./photo9.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,42 +215,42 @@ footer
 @keyframes my_anim
 {
     10%{
-        background-image: url(/photo1.jpg);
+        background-image: url(./photo1.jpg);
     }
     20%{
-        background-image: url(/photo2.jpg);
+        background-image: url(./photo2.jpg);
     }
     30%
     {
-        background-image: url(/photo3.jpg);;
+        background-image: url(./photo3.jpg);;
     }
     40%
     {
-        background-image: url(/photo4.jpg);;
+        background-image: url(./photo4.jpg);;
     }
     50%
     {
-        background-image: url(/photo5.jpg);;
+        background-image: url(./photo5.jpg);;
     }
     60%
     {
-        background-image: url(/photo6.jpg);;
+        background-image: url(./photo6.jpg);;
     }
     70%
     {
-        background-image: url(/photo7.jpg);;
+        background-image: url(./photo7.jpg);;
     }
     80%
     {
-        background-image: url(/photo8.jpg);;
+        background-image: url(./photo8.jpg);;
     }
     90%
     {
-        background-image: url(/photo9.jpg);;
+        background-image: url(./photo9.jpg);;
     }
     100%
     {
-        background-image: url(/photo1.jpg);;
+        background-image: url(./photo1.jpg);;
     }
 }
 button:active
